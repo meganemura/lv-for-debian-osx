@@ -9,7 +9,7 @@ script:
 deploy:
   provider: releases
   api_key:
-    secure: $GITHUB_TOKEN
+    secure: "kmwdvJSrYJePjrPxTlgp95cvkOlGsU+3KEsG/nAlAIs+QzholLU1Hcu1hwIxaoDbn0ilSsNGUSgn/T4SluYfqxNbenv8Slrje+MFLri0GAkWICdgTwbcTDBJBLfGYbajjD8m2YAcDcfSKiCjh6lZeC3ZCBawoA8zgJvF1pp5XYQwHo9bWK2O4x/9f/CyS9DXCkv7qGcsI9XxW7GFmAD51j7YSbnk28pSFWO70Cg0TpN2wwWzIzwYQO+x7R4lZv8n2q2teCvlWS7M5RuWazz098ZetpUwUs4f/LBQFLBrNjWuEpHBjzwHyOoS0sN+aLLtUgtcqAd53mj9e8Oc0tDcEtoFAkhLa0WP7kz3hl/39YsDxf/oRExZh43ZbKY52U+ML6riUPMTOILR+Lm2MZjNq5aELZvVzl0UFRDXIPzIOeLzFyRwv+GbFxvIrpXXUkRo1siU+dYG4Pttwsg10bZyTgbOQ/xmR5y3lAYf9mxSPQXQu7tWH5DWbKf5pjldAMHCNN7SInnBm6/FZ7kiN+xCjHNxpyAj5XiuQFZmTou/832RTRWdcsXkPaTb/oY7peOahgQlC95oTPNq7v2Al25ijnCi3msQXIKnyJmAYAKfn+ocGvt2mLv5D4EAS9BAbOBLfGzV0lEUgj45NNkery3LpiDmVQavFcTFvs65WHc5Qeg="
   file: dist/lv.tar.gz
   skip_cleanup: true
   on:
