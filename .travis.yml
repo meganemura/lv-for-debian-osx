@@ -1,0 +1,16 @@
+language: c
+os: osx
+compiler: gcc
+before_install:
+- brew update
+script:
+- git submodule update
+- "./build.sh"
+deploy:
+  provider: releases
+  api_key:
+    secure: $GITHUB_TOKEN
+  file: dist/lv.tar.gz
+  skip_cleanup: true
+  on:
+    tags: true
